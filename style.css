@@ -32,7 +32,7 @@ h1::before {
     position: absolute;
     top: 0;
     left: 0;
-    color: rgb(161, 62, 62);
+    color: rgb(158, 61, 61);
     width: 0%;
     overflow: hidden;
     transition: 1s;
@@ -54,19 +54,14 @@ footer{
 
 @media only screen and (max-width: 450px) {
     h1::before {
-        animation: animate 6s infinite alternate;
+        animation: animate 3s infinite alternate;
     }
     h1{
         font-size: 3.5em;
     }
 
     @keyframes animate {
-        40%{
-            width: 50%;
-        }
-        60%{
-            width: 0;
-        }
+        
         100%{
             width: 100%;
         }
