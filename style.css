@@ -53,7 +53,7 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: #747171;
     font-size: 1.7em;
 }
 
@@ -65,7 +65,7 @@ footer{
         font-size: 4.5em;
     }
     footer{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     @keyframes animate {
